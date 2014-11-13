@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.mvdan.template"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="0.0.1">
+
+    <!-- Touchscreen and Telephony are often not really needed -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        >
+
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

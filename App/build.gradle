@@ -1,0 +1,22 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    // compile "com.android.support:support-v4:21.0.+"
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 21
+    }
+
+    // Enable java warnings
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
