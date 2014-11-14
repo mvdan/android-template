@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import cc.mvdan.template.R;
 
-public class BaseActivity extends Activity {
+public class MainActivity extends Activity {
 
     private Context mContext;
 
@@ -14,7 +14,7 @@ public class BaseActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = this;
-        setContentView(R.layout.base);
+        setContentView(R.layout.main);
     }
 
     @Override
