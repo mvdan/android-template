@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cc.mvdan.template"
     android:installLocation="auto"
-    android:versionCode="1"
-    android:versionName="0.0.1">
+    >
 
     <!-- Touchscreen and Telephony are often not really needed -->
     <uses-feature
