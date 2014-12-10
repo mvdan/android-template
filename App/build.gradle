@@ -15,6 +15,14 @@ android {
         targetSdkVersion 21
     }
 
+    buildTypes {
+        release {
+            // Enable proguard with default android settings (no obfuscation)
+            minifyEnabled true
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+
     // Enable all java warnings
     gradle.projectsEvaluated {
         tasks.withType(JavaCompile) {
