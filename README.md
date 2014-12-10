@@ -35,11 +35,11 @@ re-done if multiple targets in a single command require them. For example,
 running `assemble install` will not compile the apk twice even though
 `install` depends on `assemble`.
 
-### Clean
+#### Clean
 
 	gradle clean
 
-### Debug
+#### Debug
 
 This compiles a debugging apk in `build/outputs/apk/` signed with a debug key,
 ready to be installed for testing purposes.
@@ -50,21 +50,21 @@ You can also install it on your attached device:
 
 	gradle installDebug
 
-### Release
+#### Release
 
 This compiles an unsigned release (non-debugging) apk in `build/outputs/apk/`.
 It's not signed, you must sign it before it can be installed by any users.
 
 	gradle assembleRelease
 
-### Test
+#### Test
 
 Were you to add automated java tests, you could configure them in your
 `build.gradle` file and run them within gradle as well.
 
 	gradle test
 
-### Lint
+#### Lint
 
 This analyses the code and produces reports containing warnings about your
 application in `build/outputs/lint/`.
