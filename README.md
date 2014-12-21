@@ -1,28 +1,28 @@
 # android-template
 
-Minimalistic Android app template using Gradle.
+Minimalist Android app template using Gradle.
 
 You can use this as a starting point to create new apps from scratch.
 
 ## Structure
 
-* `build.gradle` - Root gradle config file
+* `build.gradle` - root gradle config file
 
-* `settings.gradle` - Root gradle settings file
+* `settings.gradle` - root gradle settings file
 
-* `App` - Our only project in this repo
+* `App` - our only project in this repo
 
-* `App/build.gradle` - Project gradle config file
+* `App/build.gradle` - project gradle config file
 
-* `App/src` - Main project source directory
+* `App/src` - main project source directory
 
-* `App/src/main` - Main project flavour
+* `App/src/main` - main project flavour
 
-* `App/src/main/AndroidManifest.xml` - Manifest file
+* `App/src/main/AndroidManifest.xml` - manifest file
 
-* `App/src/main/java` - Java source directory
+* `App/src/main/java` - java source directory
 
-* `App/src/main/res` - Resources directory
+* `App/src/main/res` - resources directory
 
 ## Building
 
