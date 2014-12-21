@@ -6,23 +6,23 @@ You can use this as a starting point to create new apps from scratch.
 
 ## Structure
 
-* `build.gradle`: Root gradle config file.
+* `build.gradle` - Root gradle config file
 
-* `settings.gradle`: Root gradle settings file.
+* `settings.gradle` - Root gradle settings file
 
-* `App`: Our only project in this repo.
+* `App` - Our only project in this repo
 
-* `App/build.gradle`: Project gradle config file.
+* `App/build.gradle` - Project gradle config file
 
-* `App/src`: Main project source directory.
+* `App/src` - Main project source directory
 
-* `App/src/main`: Main project flavour.
+* `App/src/main` - Main project flavour
 
-* `App/src/main/AndroidManifest.xml`: Manifest file.
+* `App/src/main/AndroidManifest.xml` - Manifest file
 
-* `App/src/main/java`: Java source directory.
+* `App/src/main/java` - Java source directory
 
-* `App/src/main/res`: Resources directory.
+* `App/src/main/res` - Resources directory
 
 ## Building
 
