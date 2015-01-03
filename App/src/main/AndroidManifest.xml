@@ -4,12 +4,9 @@
     android:installLocation="auto"
     >
 
-    <!-- Touchscreen and Telephony are often not really needed -->
+    <!-- Touchscreen is enabled by default but not always needed -->
     <uses-feature
         android:name="android.hardware.touchscreen"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.telephony"
         android:required="false" />
 
     <application
