@@ -1,38 +1,38 @@
 apply plugin: 'com.android.application'
 
 dependencies {
-    // compile "com.android.support:support-v4:21.0.3"
+	// compile "com.android.support:support-v4:21.0.3"
 }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+	compileSdkVersion 21
+	buildToolsVersion "21.1.2"
 
-    defaultConfig {
-        versionCode 1
-        versionName "0.0.1"
-        minSdkVersion 4
-        targetSdkVersion 21
-    }
+	defaultConfig {
+		versionCode 1
+		versionName "0.0.1"
+		minSdkVersion 4
+		targetSdkVersion 21
+	}
 
-    buildTypes {
-        release {
-            // Enable proguard with default android settings (no obfuscation)
-            minifyEnabled true
-            proguardFile getDefaultProguardFile('proguard-android.txt')
-        }
-    }
+	buildTypes {
+		release {
+			// Enable proguard with default android settings (no obfuscation)
+			minifyEnabled true
+			proguardFile getDefaultProguardFile('proguard-android.txt')
+		}
+	}
 
-    compileOptions.encoding = "UTF-8"
+	compileOptions.encoding = "UTF-8"
 
-    lintOptions {
-        checkReleaseBuilds false
-    }
+	lintOptions {
+		checkReleaseBuilds false
+	}
 
-    // Enable all Android lint warnings
-    gradle.projectsEvaluated {
-        tasks.withType(JavaCompile) {
-            options.compilerArgs << "-Xlint:all"
-        }
-    }
+	// Enable all Android lint warnings
+	gradle.projectsEvaluated {
+		tasks.withType(JavaCompile) {
+			options.compilerArgs << "-Xlint:all"
+		}
+	}
 }
