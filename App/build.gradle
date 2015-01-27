@@ -25,6 +25,10 @@ android {
 
     compileOptions.encoding = "UTF-8"
 
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
     // Enable all Android lint warnings
     gradle.projectsEvaluated {
         tasks.withType(JavaCompile) {
