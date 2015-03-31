@@ -5,14 +5,14 @@ dependencies {
 }
 
 android {
-	compileSdkVersion 21
+	compileSdkVersion 22
 	buildToolsVersion "22.0.1"
 
 	defaultConfig {
 		versionCode 1
 		versionName "0.0.1"
 		minSdkVersion 4
-		targetSdkVersion 21
+		targetSdkVersion 22
 	}
 
 	buildTypes {
