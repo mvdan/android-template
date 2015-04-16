@@ -9,10 +9,16 @@ android {
 	compileSdkVersion 22
 	buildToolsVersion "22.0.1"
 
+	// Use Java 1.7, requires minSdk 8
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_7
+		targetCompatibility JavaVersion.VERSION_1_7
+	}
+
 	defaultConfig {
 		versionCode 1
 		versionName "0.0.1"
-		minSdkVersion 7
+		minSdkVersion 8
 		targetSdkVersion 22
 	}
 
