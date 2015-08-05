@@ -10,19 +10,19 @@ You can use this as a starting point to create new apps from scratch.
 
 * `settings.gradle` - root gradle settings file
 
-* `App` - our only project in this repo
+* `app` - our only project in this repo
 
-* `App/build.gradle` - project gradle config file
+* `app/build.gradle` - project gradle config file
 
-* `App/src` - main project source directory
+* `app/src` - main project source directory
 
-* `App/src/main` - main project flavour
+* `app/src/main` - main project flavour
 
-* `App/src/main/AndroidManifest.xml` - manifest file
+* `app/src/main/AndroidManifest.xml` - manifest file
 
-* `App/src/main/java` - java source directory
+* `app/src/main/java` - java source directory
 
-* `App/src/main/res` - resources directory
+* `app/src/main/res` - resources directory
 
 ## Building
 
