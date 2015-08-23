@@ -21,7 +21,7 @@ android {
 			// Enable proguard with default android settings (no obfuscation)
 			minifyEnabled true
 			shrinkResources true
-			proguardFile getDefaultProguardFile('proguard-android.txt')
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 		}
 	}
 
