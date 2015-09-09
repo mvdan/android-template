@@ -1,5 +1,7 @@
 # android-template
 
+[![Build Status](https://travis-ci.org/mvdan/android-template.svg?branch=master)](https://travis-ci.org/mvdan/android-template)
+
 Minimalist Android app template using Gradle.
 
 You can use this as a starting point to create new apps from scratch.
